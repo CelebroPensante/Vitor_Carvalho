@@ -1,0 +1,113 @@
+<!-- A pagina foi feita do zero -->
+
+<!-- Consiste em uma pagina com previsão do tempo, no canto superior direito 
+existe um botao que incrementa um contador, quando o botão é precionado 3 vezes
+a cor de funddo da tela muda para uma cor aleatoria -->
+
+<!-- Ao lado existe outro botão que quando apertado muda a fonte para preto e se 
+precionado novamente volta para branco -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Minha Página Web</title>
+</head>
+<body>
+
+    <button onclick="mudarCor()">Alterar Cor</button>
+    <button id="modoEscuroBtn">Modo Escuro</button>
+
+    <header>
+        <h1>Previsão do tempo</h1>
+    </header>
+    <section>
+        <section>
+            <h2>Domingo</h2><br>
+            <p>CHUVA</p><br>
+            <p>max 20° min 5°</p><br>
+            <img src = "./assets/chuva.png">
+        </section>
+
+        <section>
+            <h2>Segunda-feira</h2><br>
+            <p>SOL ENTRE NUVENS</p><br>
+            <p>max 25° min 15°</p><br>
+            <img src = "./assets/sol-entre-nuvens.png">
+        </section>
+
+        <section>
+            <h2>Terça-feira</h2><br>
+            <p>TEMPESTADE</p><br>
+            <p>max 17° min 5°</p><br>
+            <img src = "./assets/trovoada.png">
+        </section>
+
+        <section>
+            <h2>Quarta-feira</h2><br>
+            <p>SOL</p><br>
+            <p>max 25° min 18°</p><br>
+            <img src = "./assets/sol.png">
+        </section>
+
+        <section>
+            <h2>Quinta-feira</h2><br>
+            <p>SOL</p><br>
+            <p>max 29° min 20°</p><br>
+            <img src = "./assets/sol.png">
+        </section>
+
+        <section>
+            <h2>Sexta-feira</h2><br>
+            <p>SOL</p><br>
+            <p>max 32° min 18°</p><br>
+            <img src = "./assets/sol.png">
+        </section>
+
+        <section>
+            <h2>Sabado</h2><br>
+            <p>SOL ENTRE NUVENS</p><br>
+            <p>max 25° min 15°</p><br>
+            <img src = "./assets/sol-entre-nuvens.png">
+        </section>
+    </section>
+
+        <h2>Ultimas noticias</h2>
+
+<section id="noticias">
+
+    <article>
+        <img src = "./assets/tempestade.jpg">
+        <h3>Tempestade em SP</h3>
+        <p>Tempestade em SP causa deslizamneto e deixa mais de 100 familias desabrigadas</p>
+    </article>
+
+    <article>
+        <img src = "assets/onda-de-calor.jpg">
+        <h3>Onda de calor</h3>
+        <p>Onda de calor atinge o sul do brasil, saibas como se proteger do calor escaldante</p>
+    </article>
+
+    <article>
+        <img src = "assets/seca.jfif">
+        <h3>Seca em MS preocupa fazendeiros</h3>
+        <p>mais de 1000 cabeças de gado morrem por conta da seca no MS</p>
+    </article>
+
+    <article>
+        <img src = "assets/chuvas-fortes.jpg">
+        <h3>chuvas fortes previstas para o RJ</h3>
+        <p>É prevista a chegada de chuvas fortes para todo o estado do RJ</p>
+    </article>
+
+
+</section>
+
+<footer>
+    <p>Rodapé da página &copy; 2023</p>
+</footer>
+
+</body>
+</html>
